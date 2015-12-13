@@ -13,13 +13,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/grncdr/js-update-path.git"
+    "url": "git://github.com/grncdr/js-set-object-path.git"
   },
   "bugs": {
     "type": "git",
-    "url": "git://github.com/grncdr/js-update-path/issues"
+    "url": "git://github.com/grncdr/js-set-object-path/issues"
   },
-  "homepage": "https://github.com/grncdr/js-update-path",
+  "homepage": "https://github.com/grncdr/js-set-object-path",
   "keywords": [],
   "author": "Stephen Sugden <me@stephensugden.com>",
   "license": "MIT"
