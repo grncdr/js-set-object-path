@@ -49,6 +49,11 @@ updatePath.setter = function (path) {
 updatePath.prefix = function (prefix) {
   var updatePath = this
   prefix = toPath(prefix)
+
+  prefixedUpdatePath.prefix = function (tail) {
+    return updatePath.prefix(prefix.concat(toPath(tail)))
+  }
+
   prefixedUpdatePath.setter = function (path) {
     path = prefix.concat(toPath(path))
     return function (value) {
