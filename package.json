@@ -1,5 +1,5 @@
 {
-  "name": "set-object-path",
+  "name": "@grncdr/set-object-path",
   "version": "0.0.0",
   "description": "functions for setting values deep insde nested objects",
   "main": "index.js",
