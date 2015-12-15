@@ -87,7 +87,7 @@ test('chain .bind, .prefix, .setter', function (t) {
 
 ## Install
 
-    npm install set-object-path
+    npm install @grncdr/set-object-path
 
 ## License
 
